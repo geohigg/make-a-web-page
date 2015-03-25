@@ -1,0 +1,46 @@
+/* This code will give <h1> elements on the 
+page a white text color */
+h1 {
+	color:white;
+	text-align: center;
+}
+h2 {
+	color:black;
+	text-align: center;
+}
+
+/* This code will give the <body> element a black
+background color unless superceeded by specific
+element rule */
+body {
+	background-color: black;
+	font-family: Helvetica;
+}
+
+/* This code will superceed the black body background and give
+div tags labled lesson a gray background */
+.lesson {
+	background-color: gray;
+	border-radius: 20px;
+	color: black;
+	padding: 10px;
+	margin: 5px;
+}
+
+/* This code will superceed  the leson div tag and give div
+tags labled concept a white background */
+.concept {
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+/* This code will establish the font size of the  title of 
+the concept div tags to 20px, bold, and centered. */
+.concept-title {
+	font-size: 20px;
+	margin: 5px;
+	font-weight: bold;
+	text-align: center;
+}
