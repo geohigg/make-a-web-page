@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href ="css/style.css">
+  <title>
+    This is my very first webpage!
+  </title>
+</head>
+<body>
+<div>
+  <h1>John's notes</h1> 
+  <br>
+  <div class ="lesson">
+    <h2>Lesson 1: The Basics of HTML</h2>
+    <div class ="concept">
+      <div class = "concept-title"> 
+      <strong> Components of the Web </strong>
+      </div>
+      <ul>
+        <li>
+          <u>Browser</u> - A Program <em> (example: Mozilla FireFox, Google Chrome, and Internet Exploiter) </em> that is located on your computer <br> that is used to display files found on the web.<br><br>
+        <!-- I know it's called Internet Explorer, I'm making sure you are paying attention.  Also, this is a comment :) -->
+        </li>
+        <li>
+          <u>The Internet</u>- The worlds largest computer network.<br><br>
+        </li>
+        <li>
+          <u>HTTP</u> - Also known as <u>H</u>yper <u>T</u>ext <u>T</u>ransfer <u>P</u>rotocol.  It is one of the main protocols of the web.<br><br>
+        </li>
+        <li>
+          <u>Servers</u> - host the files that make up the web.<br><br>
+        </li>
+      </ul>
+      <b>Examples of the files that make up the Web:</b>
+      <ul>
+        <li> Plain Text</li>
+        <li> HTML</li>
+        <li> Images</li>
+        <li> Video</li>
+        <li> Music</li>
+      </ul>
+      <br>
+    </div>
+    <div class = "concept">
+      <div class="concept-title">
+      <strong>HTML Basics:</strong>
+      </div>
+      <br>
+      <br>
+        HTML, <em>Hyper Text Markup Language </em> is comprised of:
+      <ul>
+        <li>Text content - ie what you see.</li>
+        <li>Markup - the construction blocks of html that define what the text looks like.</li>
+        <li>References to other documents (Links to video, and images).</li>
+        <li>Links to <a href = "http://www.udacity.com" title= "Udacity homepage!">other pages</a>.</li>
+      </ul>
+    </div>
+    <div class= "concept">
+      <div class= "concept-title" >
+      <strong> Overview of HTML Markup:</strong>
+      </div>
+      <p>
+        HTML is comprised of tags which defines the behavior and appearance of a webpage.  Tags are structured as follows: <br>
+      </p>
+      &lt; name &gt;content &lt;/name&gt;. 
+        <br>
+        <ul>
+          <li>&lt; name &gt; - is called the opening tag.</li>
+          <li>contents - is called the tag contents.</li>
+          <li>&lt; /name &gt; - is called the closing tag.</li>
+        </ul>
+        <br>
+        The set of tags is also referred too as an <em>Element.</em> It is important to remember that the behavior of a tag will <br>
+        remain in effect until it is closed &lt;/&gt;!
+        <u>Example elements found in this exercise</u>
+        <ul>
+          <li>&lt; b &gt;<b>Will make text bold</b> &lt;/b &gt; </li>
+          <li>&lt; em &gt;<em>Will make text italic</em> &lt; /em &gt; </li>
+          <li>&lt; a &gt;&lt;/a &gt; is an anchor tag.  An example of this tag in use is in the creation of a link to another webpage.
+          That tag is constructed with the following syntax:  &lt;a href = "url"&gt; URL Plain text &lt;/a&gt;. In use it would look something like this:<br><br>
+          <a href = "https://plus.google.com/u/0/communities/100982870918349023509?cfem=1" title= "Udacity Introduction to Programming community homepage!">G+ Community Homepage!</a>
+          </li> 
+          <li>&lt;img src = "URL" alt = "alternate text"&gt; Will embed an image here.</li>
+        </ul>
+          Note: A closing tag is not needed for this element.  It is whats referred to as a Void Tag.
+    </div>
+    <div class = "concept">
+      <div class = "concept-title">
+      <strong> Notes on Whitespace</strong>
+      </div>
+      <br>
+      <br>
+        There are two types of whitespace
+        <ol>
+          <li>In-line</li>
+          <li>Block</li>
+        </ol>
+      <u> In-line Whitespace:</u> Ends a line by wrapping text to a new line. 
+      <br>
+      <br>
+      <em> Examples of in-line elements are: </em>
+      <ul>
+        <li>a</li>
+        <li>span</li>
+        <li>br</li>
+        <li>img</li>
+        <li>strong</li>
+      </ul>
+      <br>
+      <u> Block Whitespace:</u> Adds an invisible box around the text encapsulated by the tag 
+      <br>
+      <br>
+      <em> Examples of in-line elements are: </em>
+      <ul>
+        <li>p</li>
+        <li>div</li>
+        <li>form</li>
+      </ul>
+      <br>
+      <br>
+    </div>
+    <div class = "concept">
+      <div class = "concept-title">
+      <strong> The Structure of an HTML Document: </strong>
+      </div>
+      <br>
+      <br>
+      The bare bones markup of an HTML document looks like this...
+        <p>
+          &lt;!DOCTYPE HTML&gt; <br>
+          &lt;html&gt; <br>
+          &nbsp; &nbsp; &nbsp; &lt; head &gt; <br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt; TITLE &lt;/title&gt;<br>
+          &nbsp; &nbsp; &nbsp; &lt; /head&gt; <br>
+          &nbsp; &nbsp; &nbsp; &lt; body&gt;<br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;content&gt;the content (text, images, links, etc) is contained in the HTML body &lt;/content&gt; <br>
+          &nbsp; &nbsp; &nbsp; &lt;/body&gt; <br>
+          &lt;/html&gt;<br>
+        </p>
+    </div>
+  </div>
+  <div class ="lesson">
+    <h2>Lesson 2: Creating a Structured HTML Document</h2>
+    <!-- Content was pretty lacking in this section of the video series...-->
+    <br>
+    <div class ="concept">
+      <div class ="concept-title">
+      <strong> Front End web development Overview</strong>
+      </div>
+      <br>
+      <p>
+      Front end web development is visual.  A good conceptual construct of a website is like a house. There are three <br> components of this house:</p>
+      <ul>
+        <li><em>HTML</em>:  Acts as the structure like where the walls are placed or the location of the room </li>
+        <li><em>CSS</em>: Acts as the style of the house like the color and texture of the walls or the type of decorations </li>
+        <li><em>JavaScript</em>: Acts as the interactive components of a house like a remote control for the TV or a garage door opener</li>
+      </ul>
+      <br>
+      Web browsers have development tools that allow the user to view source code/styling and interactively (and temporarily)modify code on the fly.
+      <br>
+      <br>
+    </div>
+    <div class = "concept">
+      <div class = "concept-title"> 
+      <strong> Document Object Model (DOM)</strong>
+      </div>
+      <br>
+      <p>
+      The Document Object Model is a tree like structure of a web-page.  It is a cross platform language convention for representing and interacting with objects.  The nodes of every document are organized in a tree structure called a DOM Tree.  In HTML these objects are known as elements.
+      </p>
+      <br>
+    </div>
+    <div class = "concept">
+      <div class = "concept-title">
+      <strong> Boxes, Grids, and Rules </strong>
+      </div>
+      <br>
+      <br>
+      The architecture of a website is setup as a series of boxes that are aligned with a grid.  This allows the <br>developer to re-arrange the web-page to change the user experience of the site with relative ease.
+    </div>
+  </div>
+  <div class ="lesson">
+    <h2>Lesson 3: Adding CSS Style to HTML Structure</h2>
+    <br>
+    <div class = "concept">
+      <div class = "concept-title">
+      <strong>Cascading Style Sheets</strong>
+      </div>
+      <br>
+      <p>
+      Cascading means that the rules are applied no only to the elements they directly match <br>
+      but also to all those child elements.  However, if the child element has multiple overlapping 
+      <br> rules defined for it, the more specific rule takes effect.
+      </p>
+    </div>
+    <div class = "concept">
+      <div class ="concept-title">
+      <strong>CSS Styling Laws</strong>
+      </div>
+      <br>
+      <p> Styles can be defined in different places and are applied in the following order with definitions<br> further down the list overwriting previous definitions. The more specific rule is applied to every element. <br>A great example of how the styling laws work
+      are how geographic and political boundaries are set up in the United States: </p>
+      <ul>
+        <li><em>National</em></li>
+        <li><em>State</em></li>
+        <li><em>County</em></li>
+        <li><em>City</em></li>
+        <li><em>Residence</em></li>
+      </ul>
+    </div>
+    <div class = "concept">
+      <div class = "concept-title">
+      <strong>Controlling HTML with CSS</strong>
+      </div>
+      <br>
+      <p> In CSS, the element you wish to control is referred to as the <em>selector</em>.
+      Each line within the selector is called a <br> <em>declaration</em>.  The text to the
+      left of the ":" is the <em>property</em> - and the text to the right is called the <em>value</em>.<br>
+      For example: </p>
+      &nbsp; &nbsp; p { <br>
+      &nbsp; &nbsp; &nbsp; &nbsp; color:white <br>
+      &nbsp; &nbsp; &nbsp; &nbsp; }<br><br>
+      Will set the color of all paragraph text to white.
+      <br>
+      <br>
+      Class selectors apply styles to specific classes within the respective name defined in the HTML.
+      <br>using .class-name
+      <br>
+      <br>
+       You can include CSS in a web page by:
+      <br>
+      <ul>
+        <li>Write CSS in the <em>head</em> of HTML</li>
+        <li>Link your HTML to a separate CSS File (this is the preferred method)</li>
+        <li>Write the styling in-line with your HTML (this is not ideal...<b>at all</b>)
+      </ul>
+    </div>
+    <div class = "concept">
+      <div class = "concept-title">
+      <strong>Code, Test, Refine (repeat)</strong>
+      </div>
+      <br>
+      <p> There are a few steps to follow to become better at coding: </p>
+      <ol>
+        <li>Look for Natural Blocks in web pages</li>
+        <li>Look for repeated styles and syntax elements</li>
+        <li>Write HTML code</li>
+        <li>Apply Styles (from big to small)</li>
+        <li>Fix Things</li>
+      </ol>
+      Developer tools in browsers such as Google Chrome allow programmers to make changes to code on the fly<br> without having to change the original source code.  
+    </div>
+  </div>
+</div>
+</body>
+</html>
